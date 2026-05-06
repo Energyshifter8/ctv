@@ -18,6 +18,7 @@ export default function Header() {
     { label: "About Me", href: "#about" },
     { label: "Introduction", href: "#introduction" },
     { label: "Portfolio", href: "#portfolio" },
+    { label: "Contact", href: "#contact" },
   ];
 
   const scrollToSection = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
