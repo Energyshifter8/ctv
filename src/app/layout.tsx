@@ -38,6 +38,9 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <body className="min-h-full flex flex-col bg-background text-foreground font-sans">
+        <div className="fixed top-0 left-0 p-6 z-50 pointer-events-none">
+          <span className="font-unifraktur text-white text-4xl md:text-5xl drop-shadow-lg">portfolio</span>
+        </div>
         <CustomCursor />
         <BackgroundOrbs />
         <Header />
