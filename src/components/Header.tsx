@@ -55,7 +55,7 @@ export default function Header() {
                 boxShadow: "0 4px 12px rgba(168, 85, 247, 0.1)"
               }}
               whileTap={{ scale: 0.95 }}
-              className="px-4 py-2 text-sm md:text-base font-semibold text-purple-800 dark:text-purple-200 rounded-full transition-colors cursor-pointer"
+              className="px-4 py-2 text-sm md:text-base font-semibold  dark: rounded-full transition-colors cursor-pointer"
             >
               {item.label}
             </motion.a>

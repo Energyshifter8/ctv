@@ -29,7 +29,7 @@ export default function SkillsMarquee() {
           {skills.map((skill, index) => (
             <span
               key={`${skill}-${index}`}
-              className="text-2xl md:text-4xl font-bold text-purple-900/10 dark:text-purple-100/10 tracking-widest uppercase hover:text-purple-600/50 dark:hover:text-purple-300/50 transition-colors duration-300"
+              className="text-2xl md:text-4xl font-bold  dark: tracking-widest uppercase hover: dark:hover: transition-colors duration-300"
             >
               {skill}
             </span>

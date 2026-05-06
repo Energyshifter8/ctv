@@ -27,8 +27,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #1c0b3b; /* Very dark pure purple for dark mode background */
-    --foreground: #f3e8ff; /* Light purple for text */
+    --background: #0f172a; /* deep blue background */
+    --foreground: #000000; /* black text */
   }
 }
 
@@ -49,4 +49,6 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-serif), serif;
+}
+var(--font-serif), serif;
 }

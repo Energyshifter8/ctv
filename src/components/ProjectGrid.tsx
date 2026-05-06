@@ -13,10 +13,10 @@ export default function ProjectGrid() {
         viewport={{ once: true, margin: "-100px" }}
         transition={{ duration: 0.6 }}
       >
-        <h2 className="text-4xl md:text-5xl font-bold mb-4 text-purple-950 dark:text-purple-50">
+        <h2 className="text-4xl md:text-5xl font-bold mb-4  dark:">
           Featured Projects
         </h2>
-        <p className="text-purple-800/70 dark:text-purple-200/70 mb-12 max-w-2xl text-lg">
+        <p className=" dark: mb-12 max-w-2xl text-lg">
           A selection of my recent work. You can easily add more projects by editing the data file.
         </p>
 
