@@ -10,6 +10,7 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-inter);
   --font-serif: var(--font-playfair);
+  --font-unifraktur: var(--font-unifraktur);
   
   --color-purple-50: #faf5ff;
   --color-purple-100: #f3e8ff;
@@ -35,6 +36,15 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-sans), sans-serif;
+}
+
+@media (pointer: fine) {
+  html, body {
+    cursor: none;
+  }
+  a, button, [role="button"], input, select, textarea {
+    cursor: none !important;
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {

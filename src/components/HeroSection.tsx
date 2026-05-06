@@ -5,7 +5,7 @@ import SocialLinks from "./SocialLinks";
 
 export default function HeroSection() {
   return (
-    <section className="min-h-[80vh] flex flex-col justify-center max-w-5xl mx-auto px-6 py-20">
+    <section id="introduction" className="min-h-[80vh] flex flex-col justify-center max-w-5xl mx-auto px-6 py-20">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
