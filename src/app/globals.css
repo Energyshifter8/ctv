@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #faf5ff; /* light purple background */
-  --foreground: #2e1065; /* dark purple text */
+  --background: #0f172a; /* deep blue background */
+  --foreground: #000000; /* black text */
 }
 
 @theme inline {
@@ -49,6 +49,4 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-serif), serif;
-}
-var(--font-serif), serif;
 }
