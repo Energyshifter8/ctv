@@ -13,11 +13,12 @@ export default function ProjectGrid() {
         viewport={{ once: true, margin: "-100px" }}
         transition={{ duration: 0.6 }}
       >
-        <h2 className="text-4xl md:text-5xl font-bold mb-4  dark:">
+        <h2 className="text-4xl md:text-5xl font-bold mb-4 text-green-500">
           Featured Projects
         </h2>
-        <p className=" dark: mb-12 max-w-2xl text-lg">
-          A selection of my recent work. You can easily add more projects by editing the data file.
+        <p className="text-gray-400 mb-12 max-w-2xl text-lg">
+          A selection of my recent work. You can easily add more projects by
+          editing the data file.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

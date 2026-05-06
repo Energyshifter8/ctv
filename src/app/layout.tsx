@@ -23,7 +23,8 @@ const unifraktur = UnifrakturMaguntia({
 
 export const metadata: Metadata = {
   title: "Portfolio | Frontend Developer & Designer",
-  description: "Modern portfolio showcasing my frontend development and design projects.",
+  description:
+    "Modern portfolio showcasing my frontend development and design projects.",
 };
 
 export default function RootLayout({
@@ -39,7 +40,9 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col bg-background text-foreground font-sans">
         <div className="fixed top-0 left-0 p-6 z-50 pointer-events-none">
-          <span className="font-unifraktur text-white text-4xl md:text-5xl drop-shadow-lg">portfolio</span>
+          <span className="font-unifraktur text-green-500 text-4xl md:text-5xl drop-shadow-lg">
+            portfolio
+          </span>
         </div>
         <CustomCursor />
         <BackgroundOrbs />

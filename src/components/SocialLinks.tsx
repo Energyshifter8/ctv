@@ -22,7 +22,7 @@ export default function SocialLinks() {
             rel="noopener noreferrer"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.95 }}
-            className="p-3 bg-purple-100 dark:bg-purple-900/50  dark: rounded-full hover:bg-purple-200 dark:hover:bg-purple-800 transition-colors shadow-sm"
+            className="p-3 bg-green-500/20 text-green-500 rounded-full hover:bg-green-500/30 transition-colors shadow-sm shadow-green-500/20"
             aria-label={social.label}
           >
             <Icon size={24} />

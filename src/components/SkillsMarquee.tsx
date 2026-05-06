@@ -3,14 +3,26 @@
 import { motion } from "framer-motion";
 
 const skills = [
-  "React", "Next.js", "TypeScript", "Tailwind CSS", "Framer Motion",
-  "Node.js", "UI/UX Design", "GraphQL", "PostgreSQL", "Git",
-  "React", "Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", // Duplicate for seamless looping
+  "React",
+  "Next.js",
+  "TypeScript",
+  "Tailwind CSS",
+  "Framer Motion",
+  "Node.js",
+  "UI/UX Design",
+  "GraphQL",
+  "PostgreSQL",
+  "Git",
+  "React",
+  "Next.js",
+  "TypeScript",
+  "Tailwind CSS",
+  "Framer Motion", // Duplicate for seamless looping
 ];
 
 export default function SkillsMarquee() {
   return (
-    <section className="py-12 border-y border-purple-100/50 dark:border-purple-800/30 bg-white/30 dark:bg-purple-950/20 backdrop-blur-sm overflow-hidden">
+    <section className="py-12 border-y border-green-500/30 bg-black/50 backdrop-blur-sm overflow-hidden">
       <div className="flex">
         <motion.div
           className="flex whitespace-nowrap gap-12 px-6"
@@ -29,7 +41,7 @@ export default function SkillsMarquee() {
           {skills.map((skill, index) => (
             <span
               key={`${skill}-${index}`}
-              className="text-2xl md:text-4xl font-bold  dark: tracking-widest uppercase hover: dark:hover: transition-colors duration-300"
+              className="text-2xl md:text-4xl font-bold text-green-500 tracking-widest uppercase hover:text-green-400 transition-colors duration-300"
             >
               {skill}
             </span>

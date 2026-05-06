@@ -38,19 +38,24 @@ export default function CustomCursor() {
     };
   }, []);
 
-  if (typeof window !== "undefined" && window.matchMedia("(pointer: coarse)").matches) {
+  if (
+    typeof window !== "undefined" &&
+    window.matchMedia("(pointer: coarse)").matches
+  ) {
     return null;
   }
 
   return (
     <>
       <motion.div
-        className="fixed top-0 left-0 w-8 h-8 rounded-full border-2 border-purple-500/50 pointer-events-none z-[100] mix-blend-difference hidden md:block"
+        className="fixed top-0 left-0 w-8 h-8 rounded-full border-2 border-green-500/50 pointer-events-none z-[100] mix-blend-screen hidden md:block"
         animate={{
           x: mousePosition.x - 16,
           y: mousePosition.y - 16,
           scale: isHovering ? 1.5 : 1,
-          backgroundColor: isHovering ? "rgba(168, 85, 247, 0.2)" : "rgba(168, 85, 247, 0)",
+          backgroundColor: isHovering
+            ? "rgba(0, 255, 65, 0.2)"
+            : "rgba(0, 255, 65, 0)",
         }}
         transition={{
           type: "spring",
@@ -60,7 +65,7 @@ export default function CustomCursor() {
         }}
       />
       <motion.div
-        className="fixed top-0 left-0 w-2 h-2 rounded-full bg-purple-500 pointer-events-none z-[100] mix-blend-difference hidden md:block"
+        className="fixed top-0 left-0 w-2 h-2 rounded-full bg-green-500 pointer-events-none z-[100] mix-blend-screen hidden md:block"
         animate={{
           x: mousePosition.x - 4,
           y: mousePosition.y - 4,
