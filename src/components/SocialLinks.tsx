@@ -1,13 +1,13 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Facebook, Instagram, Github } from "lucide-react";
+import { FaFacebook, FaInstagram, FaGithub } from "react-icons/fa";
 
 export default function SocialLinks() {
   const socials = [
-    { icon: Facebook, href: "https://facebook.com", label: "Facebook" },
-    { icon: Instagram, href: "https://instagram.com", label: "Instagram" },
-    { icon: Github, href: "https://github.com", label: "GitHub" },
+    { icon: FaFacebook, href: "https://facebook.com", label: "Facebook" },
+    { icon: FaInstagram, href: "https://instagram.com", label: "Instagram" },
+    { icon: FaGithub, href: "https://github.com", label: "GitHub" },
   ];
 
   return (
